@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <style>
+        body{
+            background-color: rgb(223, 180, 127);
+        }
+        .submit{
+            background-color: aquamarine;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        }
+        .submit:hover{
+            background-color: brown
+        }
+        @media only screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive form</title>
+</head>
+<body>
+    <form action="https://www.google.com/">
+ <label for="fname" style="transform: ;">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="rawan"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="ahmed">
+  <hr>
+   <p>gender</p>
+<input type="radio" id="male" name="gender" value="male">
+  <label for="male">male</label><br>
+<input type="radio" id="female" name="gender" value="female">
+  <label for="female">female</label><br>
+
+  <hr>
+  <p>select skills</p>
+  <input type="checkbox" id="skill" name="skill1" value="time mangment">
+  <label for="skill"> time mangment</label><br>
+  <input type="checkbox" id="skill2" name="skill2" value="team work">
+  <label for="vehicle1"> team work</label><br>
+<input type="checkbox" id="skill3" name="skill3" value="problem solving">
+  <label for="skill3"> problem solving</label><br>
+  
+<br>
+  <input type="submit" value="Submit" class="submit">
+    </form>
+</body>
+</html>
